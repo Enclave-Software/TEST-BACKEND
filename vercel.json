@@ -1,9 +1,7 @@
 {
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
   "rewrites": [
     {
       "source": "/api/(.*)",
