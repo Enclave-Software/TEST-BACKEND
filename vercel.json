@@ -1,4 +1,3 @@
-// vercel.json - Add this to your repository root
 {
   "functions": {
     "api/**/*.js": {
